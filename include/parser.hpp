@@ -36,7 +36,7 @@ class Parser{
 
     void next(){
         if(!eof()){
-            if(bufptr >= bufsize) nextBlock();
+            if(bufptr >= bufsize-1) nextBlock();
             current = this->buffer[++bufptr];
             col++;
             if(current == '\n'){

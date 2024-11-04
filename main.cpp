@@ -50,7 +50,7 @@ void print_help()
 	std::cout << "TinyCheck v0.1 (alpha-phase)" << std::endl;
 	std::cout << "A small, efficient model checker" << std::endl;
 	std::cout << "usage: <Formula> [<Model>] [-h] [-d] [-q]" << std::endl;
-	std::cout << "<Source File>:         A file containing the target formula. If non specified or \"-\", stdin is used. Per default, a qcir-parser is used" << std::endl;
+	std::cout << "<Source File>:         A file containing the target formula. If non specified or \"-\", stdin is used" << std::endl;
 	std::cout << "-h, --help:            When specified, this text is printed" << std::endl;
 	std::cout << "                       <Formula> and <Model> are ignored with this argument" << std::endl;    
 	std::cout << "-d, --debug:           When specified, verbose is set to debug level." << std::endl;

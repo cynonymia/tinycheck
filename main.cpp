@@ -100,4 +100,5 @@ int main(int argc, char** argv){
     case TINY_CHECK_UNSAT: ALERT("UNSAT"); break; 
     default: ALERT("FAIL"); break; 
     }
+    return result;
 }

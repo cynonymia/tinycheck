@@ -85,7 +85,7 @@ int main(int argc, char** argv){
         ALERT("No model-file specified, reading input from stdin!");        
 
     if(!modelFile.good()){
-        ERR("Unable to open model file: " << modelFile);
+        ERR("Unable to open model file: " << args.model);
         exit(-1);
     }
 
